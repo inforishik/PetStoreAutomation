@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="api.test.DDTests">
+        <methods>
+          <include name="testPostuser"/>
+          <include name="testUsrByName"/>
+        </methods>
+      </class> <!-- api.test.DDTests -->
+      <class name="api.test.UserTests">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- api.test.UserTests -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
